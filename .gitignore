@@ -1,0 +1,4 @@
+.DS_Store
+.vagrant
+service-account.json
+data
