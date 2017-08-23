@@ -39,7 +39,7 @@ storage_class = STANDARD
 $ RCLONE_ENDPOINT=data-backup
 $ RCLONE_CHECKSUM=true
 $ BACKUP_DIR=/data
-$ RCLONE_CONFIG_PATH}:/etc/rclone.conf \
+$ RCLONE_CONFIG_PATH:/etc/rclone.conf \
 $ /usr/bin/docker run --rm \
 	-v ${BACKUP_DIR}:/data \
 	-v ${RCLONE_CONFIG_PATH}:/etc/rclone.conf \
